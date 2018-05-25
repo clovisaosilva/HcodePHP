@@ -10,7 +10,6 @@
 
 	$stmt->bindParam(":ID",$id);
 
-
 	$stmt->execute();
 
 	echo "Deletado!!!"
